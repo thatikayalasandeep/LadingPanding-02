@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+body{
+  background-image: url('assets/pexels-maxyne-barcel-10402282\ 1.png');
+  background-size: cover;
+  /* height: 100vh; */
+  /* margin: 0 5%; */
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 20vh;
+  align-items: center;
+  margin-left: 20px;
+  /* margin: 15px 0; */
+}
+.list{
+  list-style: none;
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-item{
+padding: 30px;
+color: #EDC126;
+font-family: "Red Rose", cursive;
+}
+.button-small{
+  /* margin-top: 20px; */
+  background-color: #D82E2F;
+  padding: 13px 35px;
+  border: 0;
+  font-size: 20px;
+  color: #ffffff;
+  margin-right: 40px;
+
+}
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+.hero{
+  position: relative;
+  height: 100vh;
+  align-items: center;
+ /* margin: 40px 200px;
+ align-items: center; */
+}
+.hero-heading{
+  margin-top: 50px;
+  margin-left: 40px;
+  font-family: "Dela Gothic One";
+  font-weight: 400;
+  font-size: 80px;
+  text-align: center;
+  line-height: 90px;
+  color: #EDC126;
+  /* font-family: "Red Rose", cursive;
+ font-size: 100px;
+ font-weight: 600;
+ color: #ffffff;
+ align-items: center; */
+}
+.button-large{
+  margin-left: 580px;
+  margin-top: 40px;
+  padding: 17px 35px;
+  text-align: center;
+  font-family: "Red Rose", cursive;
+  font-weight: 800;
+  font-size: 30px;
+  background-color: #D82E2F;
+  border: none;
+  color: #ffffff;
+/* position: absolute;
+top: 150px; */
+}
+.bottom{
+position: relative;
+top: 0;
+margin-left: 1100px;
+}
+.container{
+  /* margin-top: 20px;
+  margin-left: 20px; */
+  /* background-color: rgb(18, 14, 67,0.7); */
+  background-color: rgb(3, 32, 60,0.7);
+ /* background-color: rgb(36, 43, 46,0.4); */
+}
